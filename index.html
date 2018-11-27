@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <header class="main-header">
@@ -20,25 +23,29 @@
     </header>
 	<main class="container">
       
-    <h1 class="visually-hidden">Welcome to the gorgeous</h1>
-	<!--<img src="img/background.jpg" width="600" height="385" alt="background!">
-	<img src="img/welcome.png" width="230" height="177" alt="welcome!">
-	<img src="img/polygon.png" width="600" height="30" alt="диагонали polygon">
-	<img src="img/polygon-2.png" width="600" height="30" alt="прямоугольник polygon">-->
-      <p>Седона - небольшой городок в Аризоне, заслуживающий большего!<br>
-	  Рассмотрим пять причин, по которым Седона круче, чем Гранд Каньон!
+    <section class="welcome">
+	<h1 class="visually-hidden">welcome to the gorgeous Sedona</h1>
+	<div class="background-welcome">
+	 <!--<img src="img/background.jpg" width="1200" height="800" alt="background!">
+	 <img src="img/welcome.png" width="459" height="353" alt="welcome!">
+	 <img src="img/polygon.png" width="1200" height="59" alt="диагонали polygon">
+	 <img src="img/polygon-2.png" width="1200" height="216" alt="прямоугольник polygon">-->
+      <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>
+	  <p>Рассмотрим пять причин, по которым Седона круче, чем Гранд Каньон!
 	  </p>
+	</div>
+	  </section>
 	  <section class="features">
         <h2 class="visually-hidden">Преимущества</h2>
         <!-- Тут будут преимушества-->
       </section>
 	  
 	  <section class="hotels">
-	  <h2>Заинтересовались?</h2>
-	  <p>Укажите предполагаемые даты поездки,<br>
+	  <h3>Заинтересовались?</h3>
+	  <p class="hotels-sentence">Укажите предполагаемые даты поездки,<br>
 	  и мы покажем вам лучшие предложения гостиниц в Седоне
 	  </p>
-        <p class="hotels-info">Поиск гостиниц в Седоне</p>
+        <button class="hotels-info">Поиск гостиниц в Седоне</button>
         <form class="hotels-search" action="https://echo.htmlacademy.ru" method="post">
 		<div class="hotels-item">
 		<label for="hotels-date-in">Дата заезда:</label>
@@ -65,17 +72,17 @@
     </main>
 	<footer class="main-footer">
       <a href="#" class="hashtag" target="_blank">#Visitsedona</a>
-	  <div class="footer-social">
-	  <ul>
-	    <li><a class="social-button" href="https://twitter.com/sedona/#"><!--<img src="img/layer.png"><img src="img/t.svg">-->Твиттер</a></li>
-        <li><a class="social-button" href="https://ru-ru.facebook.com/sedona/#"><!--<img src="img/layer.png"><img src="img/fb.svg">-->Фейсбук</a></li>
-        <li><a class="social-button" href="https://www.youtube.com/channel/sedona/#"><!--img src="img/layer.png"><img src="img/youtube.svg">-->Ютьюб</a></li>
+	  <div class="social">
+	  <ul class="footer-social">
+	    <li><a class="social-button-t" href="https://twitter.com/sedona/#"><!--<img src="img/layer.png"><img src="img/t.svg">-->Твиттер</a></li>
+        <li><a class="social-button-f" href="https://ru-ru.facebook.com/sedona/#"><!--<img src="img/layer.png"><img src="img/fb.svg">-->Фейсбук</a></li>
+        <li><a class="social-button-y" href="https://www.youtube.com/channel/sedona/#"><!--img src="img/layer.png"><img src="img/youtube.svg">-->Ютьюб</a></li>
 		<!-- логотипы исправить -->
 		</ul>
 	  </div>
 	  <p class="footer-copyright">
         <b>Website by</b> 
-        <a class="button" href="https://htmlacademy.ru"><img src="img/logo_name.png" width="115" height="41"></a>
+        <a class="button-html" href="https://htmlacademy.ru"><img src="img/logo_name.png" width="115" height="41"></a>
       </p>
 	  
     </footer>
