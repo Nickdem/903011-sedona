@@ -60,6 +60,8 @@ h2 {
 	background-color: #503e32;
 }
 input {
+	height: 38px;
+    width: 346px;
 	background-color: #f2f2f2;
 }
 input:hover {
@@ -80,8 +82,15 @@ input:focus {
   line-height: 26px;
    
 }
+.people {
+	height: 38px;
+    width: 38px;
+}
 .plus,
 .minus {
+	border: none;
+	height: 38px;
+    width: 38px;
 	color: #a9a9a9;
 }
 .plus:hover,
@@ -124,7 +133,7 @@ footer {
 	text-align: center;
 }
 
-.button-html {
+.footer-copyright .button-html {
 	color: #241e20;
 }
 .footer-copyright .button-html:hover {
@@ -133,14 +142,50 @@ footer {
 .footer-copyright .button-html:active {
 	color: #bcbabb;
 }
-.site-navigation-current {
+.site-navigation-current a  {
 	color: #766357;
 }
 .inner-page {
 	color: #000000;
 	background-color: #f2f2f2;
 }
+.catalog {
+	background-color:#ffffff;
+}
 .catalog-item-image {
 	width: 135px;
 	height: 90px;
+}
+.inner-item {
+	color: #000000;
+}
+.inner-item:hover {
+	color: #80b3d2;
+}
+.inner-item:active {
+	color: #c9c9c9;
+}
+.catalog-item-info a {
+	height: 110px;
+    width: 27px;
+	background-color: #81b3d2;
+}
+.catalog-item-price a {
+	height: 142px;
+    width: 27px;
+	background-color: #766357;
+}
+.catalog-item-price a:hover {
+	background-color: #604e43;
+}
+.catalog-item-price a:active {
+	background-color: #503e33;
+	color: #857871;
+}
+.catalog-item-price,
+.catalog-item-info {
+	text-align: center;
+}
+.catalog-list {
+	list-style: none;
 }
