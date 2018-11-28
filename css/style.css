@@ -22,6 +22,12 @@ a {
   list-style: none;
   color: #000000;
 }
+.welcome {
+  background-color: #ffffff;	
+}
+.features {
+	background-color: #ffffff;
+}
 .hotels {
   text-align: center;
   background-color: #ffffff;
@@ -44,9 +50,8 @@ h2 {
   line-height: 24px;
 }
 .hotels-info {
-  font-size: 21px;
-  width: 568px;
-  line-height: 86px;
+  font-size: 21px; 
+  line-height: 26px;
   color: #ffffff;
   margin: 0 auto;
   background-color: #766257;
@@ -71,8 +76,6 @@ input:focus {
 	background-color: #ffffff;
 }
 .hotels-search {
-  width: 568px;
-  line-height: 395px;
   margin: 0 auto;
   background-color: #ffffff;
   text-align: center;
@@ -103,8 +106,7 @@ input:focus {
 }
 .button {
 	font-size: 21px;
-	width: 458px;
-  line-height: 58px;
+  line-height: 26px;
   color: #fefefc;
   background-color: #82b3d3;  
 }
@@ -188,4 +190,7 @@ footer {
 }
 .catalog-list {
 	list-style: none;
+}
+.rating {
+	text-align: center;
 }
