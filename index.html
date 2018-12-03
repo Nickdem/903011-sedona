@@ -7,68 +7,64 @@
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
-<header class="main-header">
+  <body> 
+   <div class="container">
+    <header class="main-header">
+      <a class="main-header-logo">
+	   <img src="img/index-logo.svg" width="140" height="72" alt="Логотип «City of Sedona">
+	  </a>	
       <nav class="main-navigation">
-	 <a class="main-header-logo">
-	 <img src="img/index-logo.svg" width="150" height="100" alt="Логотип «City of Sedona">
-	 </a>
-        <ul class="site-navigation">
+		<ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
-          <li><a href="photovideo.html">Фото и видео</a></li>
+          <li><a href="photovideo.html">Фото и видео</a></li>  
           <li><a href="map.html">Карта штата</a></li>
           <li><a href="inner.html">Гостиницы</a></li>
-        </ul>
-      </nav>
+        </ul> 
+      </nav> 
     </header>
-	<main class="container">
-      
-    <section class="welcome-block">
+	<main>   
+     <section class="welcome-block">
 		 <img src="img/welcome.png" width="459" height="353" alt="welcome!">
 	     <img src="img/polygon.png" width="1200" height="59">
-	 
-	 
-      <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>
-	  <p>Рассмотрим пять причин, по которым Седона круче, чем Гранд Каньон!
-	  </p>
-	
-	  </section>
-	  <section class="features">
+	 </section>
+     <section class="features">
+	     <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h3>
+	     <p>Рассмотрим пять причин, по которым Седона круче, чем Гранд Каньон!</p>
         <h2 class="visually-hidden">Преимущества</h2>
         <!-- Тут будут преимушества-->
       </section>
-	  
-	  <section class="hotels">
-	  <h3>Заинтересовались?</h3>
-	  <p class="hotels-sentence">Укажите предполагаемые даты поездки,<br>
-	  и мы покажем вам лучшие предложения гостиниц в Седоне
-	  </p>
+      <section class="hotels">
+	   <h3>Заинтересовались?</h3>
+	   <p class="hotels-sentence">Укажите предполагаемые даты поездки,<br>
+	   и мы покажем вам лучшие предложения гостиниц в Седоне
+	   </p>
         <button class="hotels-info">Поиск гостиниц в Седоне</button>
         <form class="hotels-search" action="https://echo.htmlacademy.ru" method="post">
-		 <div class="hotels-item">
-		 <label for="hotels-date-in">Дата заезда:</label>
-		 <input id="hotels-date-in" type="text" name="date-in" value="" placeholder="24 Апреля 2017">
-		 </div>
-		 <div class="hotels-item">
-		  <label for="hotels-date-out">Дата выезда:</label>
-		  <input id="hotels-date-out" type="text" name="date-out" value="" placeholder="4 Июля 2017">
-		 </div>
-		 <div class="hotels-item-">
-		  <label for="adult">Взрослые:</label>
-		  <button class="minus" type="button">-</button>
-		  <input class="people" id="adult" type="text" name="major" value="" placeholder="2">
-		  <button class="plus" type="button">+</button>
-		  <label for="child">Дети:</label>
-		  <button class="minus" type="button">-</button>
-		  <input class="people" id="child" type="text" name="children" value="" placeholder="0">
-		  <button class="plus" type="button">+</button>
-		 </div>
-		<button class="button" type="submit">Найти</button>
+		  <div class="hotels-item">
+		   <label for="hotels-date-in">Дата заезда:</label>
+		   <input id="hotels-date-in" type="text" name="date-in" value="" placeholder="24 Апреля 2017">
+		  </div>
+		  <div class="hotels-item">
+		   <label for="hotels-date-out">Дата выезда:</label>
+		   <input id="hotels-date-out" type="text" name="date-out" value="" placeholder="4 Июля 2017">
+		  </div>
+		  <div class="hotels-item-">
+		   <label for="adult">Взрослые:</label>
+		   <button class="minus" type="button">-</button>
+		   <input class="people" id="adult" type="text" name="major" value="" placeholder="2">
+		   <button class="plus" type="button">+</button>
+		   <label for="child">Дети:</label>
+		   <button class="minus" type="button">-</button>
+		   <input class="people" id="child" type="text" name="children" value="" placeholder="0">
+		   <button class="plus" type="button">+</button>
+		  </div>
+		 <button class="button" type="submit">Найти</button>
 		</form>
 		<!--Сделать кнопку НАЙТИ для перехода к карте-->
       </section>
     </main>
 	<footer class="main-footer">
+	<div class="container">
       <div class="a-tag">
 	   <a href="#" class="hashtag" target="_blank">#Visitsedona</a>
 	  </div>
@@ -81,9 +77,10 @@
 	  </div>
 	  <div class="footer-copyright">
         <span>Website by</span> 
-<a class="button-html" href="https://htmlacademy.ru"><img src="img/logo_name.png" width="115" height="41"></a>
+        <a class="button-html" href="https://htmlacademy.ru"><img src="img/logo_name.png" width="115" height="41"></a>
       </div>
-	  
+	  </div>
     </footer>
+   </div>
   </body>
 </html>

@@ -31,6 +31,7 @@ a {
   background-position: top center; 
   align-items: center;  
 }
+
 .features {
 	background-color: #ffffff;
 }
@@ -126,7 +127,7 @@ input:focus {
 	color: #93b9d0;
   background-color: #5596be; 
 }
-footer {
+  footer {
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -205,3 +206,48 @@ footer {
 .rating {
 	text-align: center;
 }
+
+/* ----- Сеточные стили ----- */
+
+.container  { 
+    width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+ 
+.main-footer {
+	padding: 60px 0;
+   margin-top: 65px;
+ 
+  
+}
+.main-footer .container {
+  display: flex;
+  
+}
+.a-tag {
+	width: 240px;
+  margin: 0;
+  margin-left: 73px;
+   margin-right: 88px;
+
+text-align: center;
+
+}
+.social{
+	width: 400px;
+	
+	text-align: center;
+}
+.footer-copyright {
+	width: 240px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: 73px;
+text-align: center;
+
+}
+
+
+
