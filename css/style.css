@@ -209,22 +209,102 @@ input:focus {
 
 /* ----- Сеточные стили ----- */
 
+html,
+body {
+	min-width: 1280px;
+	min-height: 2762px;
+}
 .container  { 
     width: 1200px;
 	margin: 0 auto;
 	text-align: center;
+	background-color: #ffffff;
+}
+.main-header {
+display: flex;
+
+height: 57px;
+
+
 }
 
- 
+
+
+
+
+
+.site-navigation {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	min-height: 57px;
+	
+	
+}
+
+header ul {
+	margin: 0;
+	
+   }
+.site-navigation li {
+	width: 240px;
+	padding-top: 13px;
+    padding-bottom: 17px;
+}
+
+.site-navigation li:nth-child(1) {
+   margin-left: 73px;
+	text-align: left;
+	
+}
+
+.navigation-list li:nth-child(2) {
+    text-align: center;
+	margin-bottom: 40px;
+}
+.navigation-list li:nth-child(3) {
+	width:244px;	 
+text-align: center;
+}
+.navigation-list li:nth-child(4) {
+text-align: center;
+}
+.site-navigation li:nth-child(5) {
+    margin-right: 73px;
+    text-align: right;
+	}
+
+
+section {
+	    
+    width: 1200px;
+}
+.welcome-block {
+	width: 1200px;
+	height: 510px;
+	
+}
+.block1 {	
+
+    margin-top: 76px;
+    margin-bottom: 21px;
+}
+.features{
+	width: 1200px;
+	height: 216px;
+	
+}
+
 .main-footer {
 	padding: 60px 0;
-   margin-top: 65px;
- 
-  
+    
 }
 .main-footer .container {
   display: flex;
-  
+ 
 }
 .a-tag {
 	width: 240px;
