@@ -160,6 +160,7 @@ input:focus {
 	color: #766357;
 }
 .inner-page {
+	 
 	color: #000000;
 	background-color: #f2f2f2;
 }
@@ -184,6 +185,11 @@ input:focus {
 	height: 110px;
     width: 27px;
 	background-color: #81b3d2;
+}
+.catalog-item-info .button:hover{
+	height: 110px;
+    width: 27px;
+	background-color: #669ec0;
 }
 .catalog-item-price a {
 	height: 142px;
@@ -254,34 +260,38 @@ header ul {
 
 .site-navigation li {
 	width: 240px;
-	padding-top: 13px;
-    padding-bottom: 17px;
+	
 }
 
 .site-navigation li:nth-child(1) {
    margin-left: 73px;
 	text-align: left;
-	
+	padding-top: 13px;
+    padding-bottom: 17px;
 }
 
-.navigation-list li:nth-child(2) {
+.site-navigation li:nth-child(2) {
 	
     text-align: center;
 	margin-bottom: 40px;
-	
+	padding-top: 13px;
+    padding-bottom: 17px;
 }
-.navigation-list li:nth-child(3) {
+.site-navigation li:nth-child(3) {
 	width:244px;	 
 text-align: center;
 }
-.navigation-list li:nth-child(4) {
+.site-navigation li:nth-child(4) {
 	 
 text-align: center;
-
+padding-top: 13px;
+    padding-bottom: 17px;
 }
 .site-navigation li:nth-child(5) {
     margin-right: 73px;
-text-align: right;}
+text-align: right;
+padding-top: 13px;
+    padding-bottom: 17px;}
 	
 
 
@@ -309,22 +319,81 @@ section {
 	min-height: 452px;
 	
 }
+
 .catalog-list li {
-	width: 1056px;
-	min-height: 91px;
 	display: flex;
+    padding: 25px 72px;
+    border-bottom: 1px solid #e5e5e5;
 	justify-content: space-between;
 }
 
 
+.catalog-item-price
+{display: flex;
+flex-direction:column ; 
+text-align: left;
+	
+	
+}
+.catalog-item-price .price {
+	margin-bottom: 16px;
+}
+.catalog-item-price a {
+    width: 142px;
+	height: 27px;
+    padding: 3px 17px; 
+    font-size: 14px;
+    font-weight: bold;
+	text-align: center;
 
+}
+.category-info{
+	display: flex;
+flex-direction:column ; 
+text-align: left;
+}
+.category-info .catalog-category{
+	margin-bottom: 16px;
+}
+.category-info .button {
+	min-width: 110px;
+	height: 27px;
+    padding: 3px 17px; 
+    font-size: 14px;
+    font-weight: bold;
+	text-align: center;
+}
+
+.rating {
+	height: 97px;
+    width: 110px;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.stars {
+	color: #81b3d2;
+    font-size: 19px;
+    line-height: 21px;
+}
+.rating-size {
+	    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #666666;
+    background-color: #f2f2f2;
+    text-align: center;
+}
 
 .main-footer {
 	padding: 60px 0;
+
     
 }
 .main-footer .container {
   display: flex;
+ 
  
 }
 .a-tag {
