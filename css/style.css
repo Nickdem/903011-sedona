@@ -326,6 +326,11 @@ section {
     border-bottom: 1px solid #e5e5e5;
 	justify-content: space-between;
 }
+.catalog-item-image{
+    width: 165px;
+height: 90px;}
+
+
 
 
 .catalog-item-price
@@ -335,6 +340,7 @@ text-align: left;
 	
 	
 }
+
 .catalog-item-price .price {
 	margin-bottom: 16px;
 }
@@ -347,22 +353,7 @@ text-align: left;
 	text-align: center;
 
 }
-.category-info{
-	display: flex;
-flex-direction:column ; 
-text-align: left;
-}
-.category-info .catalog-category{
-	margin-bottom: 16px;
-}
-.category-info .button {
-	min-width: 110px;
-	height: 27px;
-    padding: 3px 17px; 
-    font-size: 14px;
-    font-weight: bold;
-	text-align: center;
-}
+
 
 .rating {
 	height: 97px;
@@ -373,10 +364,11 @@ text-align: left;
 	justify-content: space-between;
 }
 
-.stars {
-	color: #81b3d2;
-    font-size: 19px;
-    line-height: 21px;
+
+.stars img {
+	padding-left: 3px;
+	width: 19px;
+	height: 19px;
 }
 .rating-size {
 	    padding-top: 5px;
@@ -407,6 +399,7 @@ text-align: center;
 }
 .social{
 	width: 400px;
+	
 	
 	text-align: center;
 }
