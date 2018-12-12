@@ -57,12 +57,16 @@ h2 {
   line-height: 24px;
 }
 .hotels-info {
+	 text-transform: uppercase; 
+	width: 568px;
+	height: 86px;
   font-size: 21px; 
   line-height: 26px;
   color: #ffffff;
   margin: 0 auto;
   background-color: #766257;
   text-align: center;
+  border: none;
 }
 .hotels-info:hover,
 .hotels-info:focus {
@@ -70,8 +74,11 @@ h2 {
 }
 .hotels-info:active {
 	background-color: #503e32;
+	color: #857871;
 }
+
 input {
+	
 	height: 38px;
     width: 346px;
 	background-color: #f2f2f2;
@@ -83,21 +90,61 @@ input:focus {
 	background-color: #ffffff;
 }
 .hotels-search {
+	
   margin: 0 auto;
   background-color: #ffffff;
   text-align: center;
 }
-.hotels-item {
+.hotels-item-in {
+	margin-right: 55px;
+	margin-left: 55px;
   font-size: 14px;
   line-height: 26px;
    
 }
-.people {
+.hotels-item-in label,
+.hotels-item-in input {
+	margin-top: 55px;
+	margin-bottom: 29px;
+}
+
+.hotels-item-in input {
+	margin-left: 20px;
+	border: none;
+}
+.hotels-item-out {
+	margin-right: 55px;
+	margin-left: 55px;
+  font-size: 14px;
+  line-height: 26px;
+   
+}
+.hotels-item-out label,
+.hotels-item-out input {
+	
+	margin-bottom: 29px;
+}
+
+.hotels-item-out input {
+	margin-left: 16px;
+	border: none;
+}
+.hotels-item-age{
+	margin-right: 55px;
+	margin-left: 55px;
+	margin-bottom: 55px;
+}
+.hotels-item-age input {
 	height: 38px;
     width: 38px;
+	border: none;
+	
 }
+
+
 .plus,
 .minus {
+	
 	border: none;
 	height: 38px;
     width: 38px;
@@ -113,11 +160,16 @@ input:focus {
 .minus:active {
 	color: #81b4d3;
 }
-.button {
+.hotels-search .button {
+	width:458px;
+	height:58px;
+	border: none;
 	font-size: 21px;
   line-height: 26px;
   color: #fefefc;
-  background-color: #82b3d3;  
+  background-color: #82b3d3;
+ text-transform: uppercase;
+margin-bottom: 55px; 
 }
 .button:hover {
 	color: #feffff;
@@ -199,16 +251,30 @@ background-color: #669ec0;
 .catalog-item-info .button{
 	height: 110px; 
     width: 27px;
-	background-color: #81b3d2;
+	background-color: #81b3d2;border: none;
+	font-size: 14px;
+  line-height: 26px;
+  color: #fefefc;
+  
+ text-transform: uppercase;
 }
 .catalog-item-info .button:hover{
 	height: 110px;
     width: 27px;
 	background-color: #669ec0;
 }
+.catalog-item-info .button:active {
+	color: #93b9d0;
+  background-color: #5596be;
+}
 .catalog-item-price a {
 	height: 142px;
-    width: 27px;
+    width: 27px; border: none;
+	font-size: 21px;
+  line-height: 26px;
+  color: #fefefc;
+  
+ text-transform: uppercase;
 	background-color: #766357;
 }
 .catalog-item-price a:hover {
@@ -329,6 +395,11 @@ section {
 	height: 216px;
 	
 }
+.hotels-search {
+	width: 568px;
+	min-height: 395px;
+	background-color: grey;
+}
 .catalog {
 	width: 1200px;
 	min-height: 452px;
@@ -341,15 +412,19 @@ section {
 	display: flex;
     padding: 25px 72px;
     border-bottom: 1px solid #e5e5e5;
-	justify-content: space-between;
+	
 }
 .catalog-item-image{
     width: 165px;
 height: 90px;
-text-align: left;}
+text-align: left;
+background-color: red;}
 
 
-
+.catalog-item-info .button {
+	width: 110px;
+	height: 27px;padding: 3px 17px;
+}
 
 .catalog-item-price
 {display: flex;
