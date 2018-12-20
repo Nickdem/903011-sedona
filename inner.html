@@ -24,11 +24,40 @@
    </header>
      
    <section class="filters">
-       <!-- <h2 class="visually-hidden">Фильтр гостиниц</h2>
-         <form class="filter" action="https://echo.htmlacademy.ru">
-		<fieldset><legend>Инфраструктура:</legend></fieldset>
-		<fieldset><legend>Тип жилья:</legend></fieldset>
-		</form>-->
+       <form class="filter" action="#" method="post">
+	   <div class="infrastruct">
+	   <h2>Инфраструктура:</h2>
+	   <input type="checkbox" id="checkbox-1" name="pool" value="Бассейн" checked>
+	   <label for="checkbox-1">Бассейн</label>
+	   <input type="checkbox" id="checkbox-2" name="parking" value="Парковка">
+	   <label for="checkbox-2">Парковка</label>
+	   <input type="checkbox" id="checkbox-3" name="Wi-Fi" value="Wi-Fi" >
+	   <label for="checkbox-3">Wi-Fi</label>
+	   </div>
+	   <div class="housetype">
+	   <h2>Тип жилья:</h2>
+	   <input type="checkbox" id="checkbox-4" name="hotel" value="Гостиница"checked>
+	   <label for="checkbox-4">Гостиница</label>
+	   <input type="checkbox" id="checkbox-5" name="motel" value="Мотель"checked>
+	   <label for="checkbox-5">Мотель</label>
+	   <input type="checkbox" id="checkbox-6" name="appartments" value="Апартаменты"checked>
+	   <label for="checkbox-6">Апартаменты</label>
+	   </div>
+	   <div class="price-filter">
+	    <h2>Стоимость в сутки (Р):</h2>
+	    <div class="price-control">
+		 <label>
+		 от 0
+		 </label>
+		 <label>
+		 до 3000
+		 </label>
+	    </div>
+		<!-- ползункиии -->
+		<button type="button" name="show">Показать</button>
+	   </div>
+	   
+		</form>
    </section>
   <main class="container">
    <section class="catalog">

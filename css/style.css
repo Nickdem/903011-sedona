@@ -309,6 +309,48 @@ background-color: #669ec0;
 	color: #000000;
 	background-color: #f2f2f2;
 }
+.filters {
+	box-sizing: border-box;
+    min-height: 215px;
+    color: #ffffff;
+    background-color: #888888;
+    background-image: url(../img/filter_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	
+}
+.filter {
+	    display: flex;
+    padding: 0 72px;
+    padding-top: 26px;
+    padding-bottom: 7px;
+    width: 1056px;
+}
+.infrastruct{
+	width: 256px;
+	
+}
+.housetype {
+	width: 274px;
+}
+.price-filter {
+	    position: relative;
+    box-sizing: border-box;
+    width: 528px;
+    padding-left: 200px
+}
+.filter h2 {
+	font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.filter input + label {
+	display: block;
+    padding-left: 40px;
+    position: relative;
+    cursor: pointer;
+}
 .catalog {
 	background-color:#ffffff;
 }
