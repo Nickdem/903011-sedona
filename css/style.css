@@ -35,13 +35,91 @@ a {
 .features {
 	background-color: #ffffff;
 }
+.features-text{
+	width: 1200px;
+    padding: 50px 0;
+    text-align: center;
+}
+.features-text h2 {
+    margin-top: 11px;
+    margin-bottom: 27px;
+}
+.features-text p {
+	line-height: 26px;
+    margin-bottom: 0px;
+}
+.advantages {
+	    display: flex;
+    width: 1200px;
+}
+.advantages-item {
+	    width: 400px;
+    min-height: 256px;
+	    text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    color: #ffffff;
+    background-color: #81b3d2;
+}
+.advantages-picture {
+	    width: 800px;
+    height: 256px;
+}
+.advantages-block {
+	 display: flex;
+    width: 1200px;
+}
+.advantages-block-item {
+	    align-items: center;
+    width: 400px;
+    padding-top: 60px;
+    padding-bottom: 67px;
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.advantages-block-item:nth-child(1) .advantages-block-picture{
+	width: 75px;
+    height: 72px;
+    background-image: url(../img/icon-1.png);
+    background-repeat: no-repeat;
+    
+}
+.advantages-block-item:nth-child(2) .advantages-block-picture{
+    width: 74px;
+    height: 70px;
+    background-image: url(../img/icon-3.png);
+    background-repeat: no-repeat;
+    
+}
+.advantages-block-item:nth-child(3) .advantages-block-picture{
+width: 64px;
+    height: 76px;
+    background-image: url(../img/icon-2.png);
+    background-repeat: no-repeat;
+    
+}
+.advantages-block-item h2 {
+	    color: #000000;
+    font-size: 21px;
+    font-weight: bolder;
+    margin-top: 28px;
+    margin-bottom: 10px;
+}
+.advantages-num {
+	background-color: #eeeeee;
+}
+
 .hotels {
   text-align: center;
   background-color: #ffffff;
 }
-h3 {
+.hotels h2 {
   font-size: 30px;
-  line-height: 36px;	
+    font-weight: bold;
+    margin-top: 58px;	
 }
 .background-welcome{
 	font-size: 14px;
@@ -53,8 +131,8 @@ h2 {
   line-height: 26px;
 }
 .hotels-sentence {
-  font-size: 14px;
-  line-height: 24px;
+     margin-bottom: 48px;
+    line-height: 24px;
 }
 .hotels-info {
 	 text-transform: uppercase; 
