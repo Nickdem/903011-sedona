@@ -9,17 +9,28 @@
   </head>
   <body class="inner-page">
   <div class="container">
-   <header class="main-header">    	
-    <nav class="main-navigation">
-     <ul class="site-navigation">
-      <li><a href="info.html">Информация</a></li>
-      <li><a href="photovideo.html">Фото и видео</a></li> 
-	  <li><a class="main-header-logo" href="index.html"><img src="img/logo.svg" width="140" height="72" alt="Логотип «City of Sedona"></a></li>
-      <li><a href="map.html">Карта штата</a></li>
-      <li class="site-navigation-current"><a href="inner.html">Гостиницы</a></li>
-     </ul>
-    </nav>
-   </header>
+   <header class="header">
+        <a class="main-header-logo" href="index.html">
+		 <img class="header-logo" src="img/logo.svg" alt="Логотип Седоны" width="140" height="70">
+		</a>
+        <h2 class="visually-hidden">Меню сайта</h2>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item">
+              <a class="header-nav-phrase" href="#">Информация</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-phrase" href="#">Фото и видео</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-phrase" href="#">Карта штата</a>
+            </li>
+            <li class="header-nav-item">
+              <a class="header-nav-phrase active" href="inner.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
    <main class="container">
     <section class="filters">
      <form class="filter" action="#" method="post">
