@@ -268,6 +268,11 @@ margin-bottom: 55px;
 	color: #93b9d0;
   background-color: #5596be; 
 }
+.hotels-search {
+	width: 568px;
+	min-height: 395px;
+	background-color: grey;
+}
   footer {
 	background-color: rgba(255, 255, 255, 0.5);
 }
@@ -405,6 +410,68 @@ background-color: #669ec0;
 	    text-decoration: none;
     color: #81b3d2;
     border: none;
+}
+.sorting-list a:hover,
+.sorting-list a:focus {
+    color: #81b3d2;
+}
+
+.sorting-list a:active {
+    color: #000;
+    border: none;
+}
+
+.checked {
+    border: none;
+    color: #81b3d2;
+}
+.sorting-order-buttons {
+    margin-left: auto;
+    
+    
+    display: flex;
+    
+    
+    align-items: center;
+}
+
+
+.sorting-order-buttons polygon {
+    fill: #cacaca;
+}
+
+.sorting-order-buttons polygon:hover,
+.sorting-order-buttons polygon:focus {
+    fill: #231f20;
+}
+
+.sorting-order-buttons polygon:active {
+    fill: #81b3d2;
+}
+.sorting-order-buttons polyline {
+    fill: #cacaca;
+}
+
+.sorting-order-buttons polyline:hover,
+.sorting-order-buttons polyline:focus {
+    fill: #231f20;
+}
+
+.sorting-order-buttons polyline:active {
+    fill: #81b3d2;
+}
+.sorting-order-buttons .active polyline{
+	fill: #81b3d2;
+}
+.up-button,
+.down-button {
+    margin: 0;
+    margin-right: 12px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
 }
  
 .catalog {
@@ -577,11 +644,7 @@ section {
 	height: 216px;
 	
 }
-.hotels-search {
-	width: 568px;
-	min-height: 395px;
-	background-color: grey;
-}
+
 .catalog {
 	width: 1200px;
 	min-height: 452px;
