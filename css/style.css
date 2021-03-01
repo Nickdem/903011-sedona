@@ -1,4 +1,5 @@
 @import './normalize.css';
+@import './header.css';
 
 body {
   font-family: Pt Sans, Arial, sans-serif;
@@ -10,7 +11,7 @@ body {
   background-color: #f2f2f2;
 }
 
-.container a {
+a {
   text-decoration: none;
   color: #000000;
 }
@@ -26,79 +27,6 @@ body {
 
 .container section {
   width: 1200px;
-}
-
-.header {
-  max-width: 1200px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #ffffff;
-  z-index: 1;
-}
-
-.header-logo {
-  position: absolute;
-  z-index: 1;
-  left: 530px;
-}
-
-.header-nav {
-  width: 1200px;
-  min-height: 57px;
-  line-height: 26px;
-}
-
-.header-nav-list {
-  margin: 15px 0 12px 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-}
-
-.header-nav-item {
-  width: 240px;
-}
-
-.header-nav-href.active {
-  color: #766357;
-  cursor: pointer;
-}
-
-.header-nav-href:hover {
-  color: #81b3d2;
-  outline: none;
-}
-
-.header-nav-href:active {
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.header li:nth-child(1) {
-  text-align: left;
-  margin-left: 73px;
-}
-
-.header li:nth-child(2) {
-  text-align: left;
-  margin-right: 48px;
-}
-
-.header li:nth-child(3) {
-  text-align: right;
-  margin-left: 48px;
-}
-
-.header li:nth-child(4) {
-  text-align: right;
-  margin-right: 73px;
-}
-
-.header-nav a {
-  color: #000000;
 }
 
 .welcome-block {
