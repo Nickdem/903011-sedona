@@ -1,11 +1,12 @@
 @import './normalize.css';
 @import './header.css';
+@import './main-page.css';
 
 body {
   font-family: Pt Sans, Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  font-weight: 700;
+  font-weight: 400;
   color: #333333;
   text-transform: uppercase;
   background-color: #f2f2f2;
@@ -23,63 +24,6 @@ a {
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
   text-align: center;
   background-color: #ffffff;
-}
-
-.container section {
-  width: 1200px;
-}
-
-.welcome-block {
-  position: relative;
-  background-color: #2d4349;
-  background-image: url('../img/background.jpg');
-  background-repeat: no-repeat;
-  background-position: 0 -58px;
-  min-height: 508px;
-}
-
-.welcome-block:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-image: url('../img/polygon.svg');
-  background-repeat: no-repeat;
-  padding-bottom: 0px;
-  height: 57px;
-  width: 1200px;
-}
-
-.img-welcome {
-  position: absolute;
-  left: 50%;
-  margin-left: -230px;
-  top: 76px;
-  z-index: 1;
-}
-
-.features {
-  background-color: #ffffff;
-}
-
-.features-text h2 {
-  width: 576px;
-  margin-top: 11px;
-  margin-bottom: 27px;
-  margin-left: 312px;
-  margin-right: 312px;
-}
-
-.features-text p {
-  font-weight: normal;
-  line-height: 26px;
-  margin-bottom: 0px;
-}
-
-.features-text {
-  width: 1200px;
-  padding: 50px 0;
-  text-align: center;
 }
 
 .advantages {
