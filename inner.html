@@ -6,6 +6,7 @@
   <title>HTML Academy: Седона - гостиницы</title>
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/inner-page.css" rel="stylesheet">
 </head>
 
 <body class="inner-page">
@@ -35,47 +36,46 @@
     <main>
       <section class="filters">
         <h2 class="visually-hidden">Настройка фильтра</h2>
-        <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
-          <div class="left-column">
-            <fieldset>
-              <legend>Инфраструктура: </legend>
-              <ul class="checkbox-list">
-                <li>
-                  <input class="visually-hidden checkbox-input" type="checkbox" id="pool" name="pool" checked>
-                  <label for="pool">Бассейн</label>
+        <form class="filters__form" method="get" action="https://echo.htmlacademy.ru">
+          <div class="filters__inputs">
+            <fieldset class="filters__inputs-group">
+              <legend class="filters__title">Инфраструктура: </legend>
+              <ul class="filters__inputs-list">
+                <li class="filters__inputs-item">
+                  <input class="filters__inputs-checkbox" type="checkbox" id="pool" name="pool" checked>
+                  <label class="filters__inputs-label" for="pool">Бассейн</label>
                 </li>
-                <li>
-                  <input class="visually-hidden checkbox-input" type="checkbox" id="parking" name="parking">
-                  <label for="parking"> Парковка</label>
+                <li class="filters__inputs-item">
+                  <input class="filters__inputs-checkbox" type="checkbox" id="parking" name="parking">
+                  <label class="filters__inputs-label" for="parking"> Парковка</label>
                 </li>
-                <li>
-                  <input class="visually-hidden checkbox-input" type="checkbox" id="wifi" name="wi-fi">
-                  <label for="wifi">Wi-Fi</label>
+                <li class="filters__inputs-item">
+                  <input class="filters__inputs-checkbox" type="checkbox" id="wifi" name="wi-fi">
+                  <label class="filters__inputs-label" for="wifi">Wi-Fi</label>
                 </li>
               </ul>
             </fieldset>
-            <fieldset>
-              <legend>Тип жилья: </legend>
-              <ul class="checkbox-list house">
-                <li>
-                  <input class="visually-hidden checkbox-input" type="checkbox" id="hotel" checked name="hotel">
-                  <label for="hotel">Гостиница</label>
+            <fieldset class="filters__inputs-group">
+              <legend class="filters__title">Тип жилья: </legend>
+              <ul class="filters__inputs-list">
+                <li class="filters__inputs-item">
+                  <input class="filters__inputs-checkbox" type="checkbox" id="hotel" checked name="hotel">
+                  <label class="filters__inputs-label" for="hotel">Гостиница</label>
                 </li>
-                <li>
-                  <input class="visually-hidden checkbox-input" type="checkbox" id="motel" checked name="motel">
-                  <label for="motel"> Мотель</label>
+                <li class="filters__inputs-item">
+                  <input class="filters__inputs-checkbox" type="checkbox" id="motel" checked name="motel">
+                  <label class="filters__inputs-label" for="motel"> Мотель</label>
                 </li>
-                <li>
-                  <input class="visually-hidden checkbox-input " type="checkbox" id="apartment" checked
-                    name="apartment">
-                  <label for="apartment">Апартаменты</label>
+                <li class="filters__inputs-item">
+                  <input class="filters__inputs-checkbox" type="checkbox" id="apartment" checked name="apartment">
+                  <label class="filters__inputs-label" for="apartment">Апартаменты</label>
                 </li>
               </ul>
             </fieldset>
           </div>
-          <div class="filter-range">
-            <div class="filter-range-title">Стоимость в сутки (р):</div>
-            <div class="price-controls">
+          <div class="filters__range">
+            <h2 class="filters__title">Стоимость в сутки (р):</h2>
+            <div class="filters__price-controls">
               <label class="min-price">от
                 <input type="text" name="min-price" value="0">
               </label>
@@ -83,14 +83,14 @@
                 <input type="text" name="max-price" value="3000">
               </label>
             </div>
-            <div class="range-controls">
-              <div class="scale">
-                <div class="bar"></div>
+            <div class="filters__range-controls">
+              <div class="filters__scale">
+                <div class="filters__bar"></div>
               </div>
-              <div class="range-toggle range-toggle-min" title="Минимальная стоимость"></div>
-              <div class="range-toggle range-toggle-max" title="Максимальная стоимость"></div>
+              <div class="filters__range-toggle filters__range-toggle--min" title="Минимальная стоимость"></div>
+              <div class="filters__range-toggle filters__range-toggle--max" title="Максимальная стоимость"></div>
             </div>
-            <input type="submit" value="Показать" class="show-button">
+            <input class="filters__button" type="submit" value="Показать">
           </div>
         </form>
       </section>
@@ -201,15 +201,15 @@
         </ul>
       </section>
     </main>
-    <footer class="main-footer">
-      <div class="container-footer">
-        <div class="a-tag">
-          <a href="#" class="hashtag" target="_blank">#Visitsedona</a>
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__hashtag">
+          <a href="#" class="footer__hashtag-link" target="_blank">#Visitsedona</a>
         </div>
-        <div class="social">
-          <ul class="footer-social">
-            <li>
-              <a class="social-button" href="#">
+        <div class="footer__social">
+          <ul class="footer__social-list">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
                 <span class="visually-hidden">Твиттер</span>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                   y="0px" width="17px" height="15px" viewBox="0 0 17 15" enable-background="new 0 0 17 15"
@@ -223,8 +223,8 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a class="social-button" href="#">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
                 <span class="visually-hidden">Фейсбук</span>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                   y="0px" width="12px" height="22px" viewBox="0 0 12 22" enable-background="new 0 0 12 22"
@@ -233,8 +233,8 @@
                 </svg>
               </a>
             </li>
-            <li>
-              <a class="social-button" href="#">
+            <li class="footer__social-item">
+              <a class="footer__social-link" href="#">
                 <span class="visually-hidden">Ютьюб</span>
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                   y="0px" width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16"
@@ -246,9 +246,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-copyright">
-          <span>Website by</span>
-          <a class="button-html" href="https://htmlacademy.ru/intensive/htmlcss">
+        <div class="footer__copyright">
+          <span class="footer__copyright-text">Website by</span>
+          <a class="footer__copyright-link" href="https://htmlacademy.ru/intensive/htmlcss">
             <svg class="htmlacademy" tabindex="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108.08 36.85"
               width="115" height="41" data-name="Layer 1">
               <title>HTMLAcademy</title>
