@@ -95,24 +95,24 @@
         </form>
       </section>
       <section class="sorting">
-        <h2>Найдено: 3</h2>
-        <div class="sorting-type">
-          <span>Сортировка:</span>
-          <ul class="sorting-list">
-            <li><a class="active">По цене</a></li>
-            <li><a href="#">По типу</a></li>
-            <li><a href="#">По рейтингу</a></li>
+        <h2 class="sorting__title">Найдено: 3</h2>
+        <div class="sorting__type">
+          <span class="sorting__type-title">Сортировка:</span>
+          <ul class="sorting__type-list">
+            <li class="sorting__type-item sorting__type-item--active"><a>По цене</a></li>
+            <li class="sorting__type-item"><a href="#">По типу</a></li>
+            <li class="sorting__type-item"><a href="#">По рейтингу</a></li>
           </ul>
         </div>
-        <div class="sorting-order-buttons">
-          <a class="up-button" href="#" aria-label="сортировать по возрастанию">
+        <div class="sorting__buttons">
+          <a href="#" aria-label="сортировать по возрастанию">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
               y="0px" width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10"
               xml:space="preserve">
               <polygon fill="#231F20" points="5.5,0 0,10 11,10 "></polygon>
             </svg>
           </a>
-          <a class="down-button active" href="#" aria-label="сортировать по убыванию">
+          <a class="active-btn" href="#" aria-label="сортировать по убыванию">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
               y="0px" width="11px" height="10px" viewBox="0 0 11 10" enable-background="new 0 0 11 10"
               xml:space="preserve">
@@ -122,80 +122,80 @@
         </div>
       </section>
       <section class="catalog">
-        <ul class="catalog-list">
-          <li class="catalog-item">
+        <ul class="catalog__list">
+          <li class="catalog__item">
             <img src="img/hotels-1.jpg" width="135" height="90" alt="Гостиница Amara Resort and Spa">
-            <div class="item-wrapper">
-              <h2>
+            <div class="catalog__item-desc">
+              <h2 class="catalog__item-title">
                 <a href="#">Amara resort & spa</a>
               </h2>
-              <div class="catalog-info">
-                <span class="catalog-type">Гостиница</span>
-                <span class="catalog-price">От 4000 Р.</span>
+              <div class="catalog__item-info">
+                <span class="catalog__item-type">Гостиница</span>
+                <span class="catalog__item-price">От 4000 Р.</span>
               </div>
-              <div class="catalog-actions">
+              <div class="catalog__item-actions">
                 <a href="#">Подробнее</a>
                 <a href="#">Забронировать</a>
               </div>
             </div>
-            <div class="catalog-score">
-              <div class="catalog-stars">
+            <div class="catalog__item-score">
+              <div class="catalog__item-stars">
                 <h2 class="visually-hidden">4 звезды</h2>
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
               </div>
-              <span class="catalog-rating">Рейтинг: 8,5</span>
+              <span class="catalog__item-rating">Рейтинг: 8,5</span>
             </div>
           </li>
-          <li class="catalog-item">
+          <li class="catalog__item">
             <img src="img/hotels-2.jpg" width="135" height="90" alt="Мотель Desert Quail Inn">
-            <div class="item-wrapper">
-              <h2>
+            <div class="catalog__item-desc">
+              <h2 class="catalog__item-title">
                 <a href="#"> Desert Quail Inn </a>
               </h2>
-              <div class="catalog-info">
-                <span class="catalog-type">Мотель</span>
-                <span class="catalog-price">От 3000 Р.</span>
+              <div class="catalog__item-info">
+                <span class="catalog__item-type">Мотель</span>
+                <span class="catalog__item-price">От 3000 Р.</span>
               </div>
-              <div class="catalog-actions">
+              <div class="catalog__item-actions">
                 <a href="#">Подробнее</a>
                 <a href="#">Забронировать</a>
               </div>
             </div>
-            <div class="catalog-score">
-              <div class="catalog-stars">
+            <div class="catalog__item-score">
+              <div class="catalog__item-stars">
                 <h2 class="visually-hidden">3 звезды</h2>
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
               </div>
-              <span class="catalog-rating">Рейтинг: 8,9</span>
+              <span class="catalog__item-rating">Рейтинг: 8,9</span>
             </div>
           </li>
-          <li class="catalog-item">
+          <li class="catalog__item">
             <img src="img/hotels-3.jpg" width="135" height="90" alt="Аппартаменты Villas at Poco Diablo">
-            <div class="item-wrapper">
-              <h2>
+            <div class="catalog__item-desc">
+              <h2 class="catalog__item-title">
                 <a href="#"> Villas at Poco Diablo</a>
               </h2>
-              <div class="catalog-info">
-                <span class="catalog-type">Апартаменты</span>
-                <span class="catalog-price">От 2000 Р.</span>
+              <div class="catalog__item-info">
+                <span class="catalog__item-type">Апартаменты</span>
+                <span class="catalog__item-price">От 2000 Р.</span>
               </div>
-              <div class="catalog-actions">
+              <div class="catalog__item-actions">
                 <a href="#">Подробнее</a>
                 <a href="#">Забронировать</a>
               </div>
             </div>
-            <div class="catalog-score">
-              <div class="catalog-stars">
+            <div class="catalog__item-score">
+              <div class="catalog__item-stars">
                 <h2 class="visually-hidden">2 звезды</h2>
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
                 <img src="img/star.svg" width="18" height="17" alt="звезда">
               </div>
-              <span class="catalog-rating">Рейтинг: 9,2</span>
+              <span class="catalog__item-rating">Рейтинг: 9,2</span>
             </div>
           </li>
         </ul>
