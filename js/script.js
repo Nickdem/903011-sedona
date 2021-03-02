@@ -1,8 +1,8 @@
-var btn = document.querySelector(".search-hotel-button");
-var popup = document.querySelector(".search-hotel-popup-wrapper")
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.querySelector(".hotels__search-btn");
+  var popup = document.querySelector(".hotels__popup")
 
-btn.addEventListener("click",function (){popup.classList.toggle("show")});
-
-document.addEventListener("DOMContentLoaded", function() {
-    popup.classList.remove("show");
+  btn.addEventListener("click", function () {
+    popup.classList.toggle("hide")
   });
+});
