@@ -1,0 +1,18 @@
+.features {
+  padding: 50px 0;
+}
+
+.features__inner-title {
+  margin-top: 11px;
+  margin-bottom: 27px;
+}
+
+.features__inner-text {
+  line-height: 26px;
+}
+
+.features__inner {
+  width: 576px;
+  margin: 0 auto;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+.welcome-block {
+  position: relative;
+  background-color: #2d4349;
+  background-image: url('../../img/background.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 -58px;
+  min-height: 508px;
+}
+
+.welcome-block:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../../img/polygon.svg');
+  background-repeat: no-repeat;
+  height: 57px;
+  width: 1200px;
+}
+
+.welcome-block__img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
